@@ -1,0 +1,51 @@
+{
+    "common": {
+        "save": "Kaydet",
+        "cancel": "İptal",
+        "delete": "Sil",
+        "edit": "Düzenle",
+        "update": "Güncelle",
+        "close": "Kapat",
+        "search": "Ara",
+        "yes": "Evet",
+        "no": "Hayır"
+    },
+    "login": {
+        "title": "Giriş Yap",
+        "email": "E-posta",
+        "password": "Şifre",
+        "forgotPassword": "Şifremi Unuttum",
+        "signIn": "Giriş Yap",
+        "signUp": "Kayıt Ol"
+    },
+    "profile": {
+        "personalInfo": "Kişisel Bilgiler",
+        "firstName": "Ad",
+        "lastName": "Soyad",
+        "email": "E-posta",
+        "phone": "Telefon",
+        "updateSuccess": "Profiliniz başarıyla güncellendi.",
+        "updateError": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "settings": {
+        "password": "Şifre",
+        "newPassword": "Yeni Şifre",
+        "confirmNewPassword": "Yeni Şifreyi Onayla",
+        "updatePassword": "Şifreyi Güncelle",
+        "passwordSuccess": "Şifre başarıyla güncellendi.",
+        "passwordError": "Şifre güncellenemedi. Lütfen tekrar deneyin.",
+        "passwordMismatch": "Yeni şifreler eşleşmiyor!"
+    },
+    "upload": {
+        "title": "Dosya Yükle",
+        "selectFolder": "Klasör Seç",
+        "selectFile": "Dosya",
+        "dropOrBrowse": "Dosyanızı buraya bırakın veya gözatın",
+        "chooseFromComputer": "bilgisayarınızdan seçin",
+        "fileName": "Dosya Adı",
+        "description": "Açıklama",
+        "uploadButton": "Yükle",
+        "success": "Başarıyla yüklendi",
+        "error": "Yükleme başarısız!"
+    }
+}

@@ -1,0 +1,60 @@
+# MenuDto
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **number** |  | [optional] [default to undefined]
+**name** | **string** |  | [optional] [default to undefined]
+**slug** | **string** |  | [optional] [default to undefined]
+**description** | **string** |  | [optional] [default to undefined]
+**url** | **string** |  | [optional] [default to undefined]
+**icon** | **string** |  | [optional] [default to undefined]
+**imageUrl** | **string** |  | [optional] [default to undefined]
+**parentId** | **number** |  | [optional] [default to undefined]
+**parentName** | **string** |  | [optional] [default to undefined]
+**order** | **number** |  | [optional] [default to undefined]
+**isActive** | **boolean** |  | [optional] [default to undefined]
+**menuType** | [**MenuType**](MenuType.md) |  | [optional] [default to undefined]
+**menuTypeName** | **string** |  | [optional] [default to undefined]
+**linkType** | [**MenuLinkType**](MenuLinkType.md) |  | [optional] [default to undefined]
+**linkTypeName** | **string** |  | [optional] [default to undefined]
+**openInNewTab** | **boolean** |  | [optional] [default to undefined]
+**showForGuests** | **boolean** |  | [optional] [default to undefined]
+**showForAuthenticated** | **boolean** |  | [optional] [default to undefined]
+**createdAt** | **string** |  | [optional] [default to undefined]
+**updatedAt** | **string** |  | [optional] [default to undefined]
+**subMenus** | [**Array&lt;MenuDto&gt;**](MenuDto.md) |  | [optional] [default to undefined]
+
+## Example
+
+```typescript
+import { MenuDto } from './api';
+
+const instance: MenuDto = {
+    id,
+    name,
+    slug,
+    description,
+    url,
+    icon,
+    imageUrl,
+    parentId,
+    parentName,
+    order,
+    isActive,
+    menuType,
+    menuTypeName,
+    linkType,
+    linkTypeName,
+    openInNewTab,
+    showForGuests,
+    showForAuthenticated,
+    createdAt,
+    updatedAt,
+    subMenus,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
